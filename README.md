@@ -1,1 +1,1 @@
-![Screenshot](https://github.com/Thelin90/CV_sharelatex/blob/master/cv_new.png)
+![Screenshot](https://github.com/Thelin90/CV_sharelatex/blob/master/new_image.png)
