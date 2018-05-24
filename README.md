@@ -9,7 +9,7 @@ To compile the .tex code to PDF a LaTex environment is required.
 Hence use a LaTex environment of choice.
 
 I recommend for Ubuntu users: 
-* TexMaker [TexMaker Installation Ubuntu 16.04](https://www.devmanuals.net/install/ubuntu/ubuntu-16-04-LTS-Xenial-Xerus/how-to-install-texmaker.html)
+* [TexMaker Installation Ubuntu 16.04](https://www.devmanuals.net/install/ubuntu/ubuntu-16-04-LTS-Xenial-Xerus/how-to-install-texmaker.html)
 
 And ShareLatex is also good for running straight in the browser:
 
