@@ -2,7 +2,7 @@
 
 LaTex source code for a CV.
 
-## Useage & Requirements
+## Usage & Requirements
 
 To compile the .tex code to PDF a LaTex environment is required.
 
