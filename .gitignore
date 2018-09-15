@@ -1,0 +1,10 @@
+# LaTeX stuff
+
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+
+cv_files
