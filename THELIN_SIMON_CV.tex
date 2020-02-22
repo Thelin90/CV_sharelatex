@@ -41,7 +41,7 @@
 
 \usepackage[scale=0.90]{geometry}
 
-\address{Flat 41, Canada Wharf, 255 Rotherhithe Street}{London, SE165ES, UK}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provid0731-560387ed empty
+\address{Flat 41, Canada Wharf, 255, Rotherhithe Street, London, SE16 5ES, UK}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provid0731-560387ed empty
 \phone[mobile]{+447544382309/+4673~723~60~35}                   %                   % optional, remove / comment the line if not wanted
 \email{simon.thelin90@gmail.com}
 
@@ -70,48 +70,60 @@
 %\section{Qualification highlights}
 %I possess professional qualifications in programming where i have delivered applications both in Android and hardware close software. I am always on point and loyal towards my duties.
 \section{Work Experience}
-\cventry{June 2019 -- (ongoing) }{Data Engineer}{Yoyo Wallet}{London}{}{
+
+\cventry{(on-going) November 2019}{Data Engineer}{GameAnalytics}{London}{\textbf{full time}}{
 \begin{itemize}
     \itemsep0.3em
-    \item Data Engineer for large scale data modeling. Data processing in real time and batch with analytics. Technology's used such as Apache Spark, Terraform, Apache Kafka, AWS, Postgres, Python, Faust, Alembic, Elastic Search, Apache AirFlow.
-    \item Currently responsible for migrating Postgres to Redshift 
+    \item Building up GameAnalytics data science platform. Including being responsible for best practices for data engineering and implementing data science features.
+    \item Technology's used such as, Python3 with type enforcement. Data science and data manipulation frameworks: pymc3, Pandas, numpy, scipy. Distributed data processing frameworks: PySpark. Infrastructure: Terraform, docker, docker-compose. Schedule and workflow platform: Apache Airflow. Database technologies: MySQL, Apache Druid, Redshift, DynamoDB. Cloud: AWS(S3, EC2, EMR, SQS), Google(Big Query)
+    \item Working on closely with data scientist to put statistical AB testing models into production. Covering both data engineering and data science aspects.
 \end{itemize} 
 }
 
-\cventry{August 2018 -- June 2019 }{Data Engineer}{Yieldify}{London}{}{
+\cventry{November 2019 June 2019}{Data Engineer}{YoYo Wallet}{London}{\textbf{full time}}{
 \begin{itemize}
     \itemsep0.3em
-    \item Data Engineer for large scale data modeling/processing and analytics. Technology's used such as Apache Spark, Apache Airflow, AWS, Python, Typescript.
+    \item Data Engineer for large scale data modeling. Data processing in real time and batch with analytics. 
+    \item Technology's used such as Apache Spark, Terraform, Kafka, AWS(Redshift, S3, ECS, Kinesis), Postgres, Python, Pandas, Dask, Scikit-learn, Faust, Alembic, Elastic Search, Kibana, Airflow.
+    \item Worked on a real time segmentation app utilising Faust.
+    \item Had responsibility for the data warehouse and helping BI team to transition to Redshift.
+    \item Also managing an intern within the data team.
 \end{itemize} 
 }
 
-\cventry{January 2018 -- August }{Developer Connected Vehicle Cloud}{Ericsson AB}{Gothenburg}{}{
+\cventry{June 2019 August 2018}{Data Engineer}{Yieldify}{London}{\textbf{full time}}{
 \begin{itemize}
     \itemsep0.3em
-    \item Developer for Continuous Deployment (CD), KeyCloak, Microservices, Kafka, Java Spring, Terraform, Elastic Search, Kibana, Ansible, Golang and Python.
+    \item Data Engineer for large scale data modeling/processing and analytics.
+    \item Technology's used such as Apache Spark, AWS (ECS, Ec2, EMR), Python, Typescript, Kubernetes, Grafana, Kibana.
 \end{itemize} 
 }
 
-\cventry{June 2017 -- December 2017 }{Software Engineer}{Drivec AB}{Helsingborg}{}{
+\cventry{August 2018 January 2018 }{Developer Connected Vehicle Cloud}{Ericsson AB}{Gothenburg}{\textbf{full time}}{
 \begin{itemize}
     \itemsep0.3em
-    \item Integrating GPRS/GPS and CAN\footnotemark[1] hardware. Preparing data for machine learning solutions. Quality assurance work involving analyzing data from vehicles. Technology's used such as Node.js, Android.
+    \item Developer for Connected Vehicle Cloud Department
+    \item Technology's used such as KeyCloak, Microservices, Kafka, Java Spring, Terraform, Elastic Search, Kibana, Ansible, Golang and Python.
+    \item Worked with both Swedish teams and teams in China during development.
 \end{itemize} 
 }
 
-\cventry{June 2011 -- May 2017 }{Support \& Field Test Engineer}{Drivec AB}{Helsingborg}{}{
+\cventry{Dec 2017 June 2017}{Software Engineer}{Drivec AB}{Helsingborg}{\textbf{full time}}{
 \begin{itemize}
     \itemsep0.3em
-    %\item Project launches, installations, installation manuals, vehicle configuration.
-   % \item Technical and customer support together with calibration of fleet management systems across 3000 vehicles to clients and customers in the Nordic region.
-    %\item Responsible for project roll outs of vehicles in the Nordic region.
-    \item Head of tech support, performed reverse engineering on vehicle data protocols\footnotemark[1].
-    %\item CAN-bus data analysis, reverse engineering.
+    \item Integrating GPRS/GPS and CAN\footnotemark[1] hardware. 
+    \item Preparing data for machine learning solutions. 
+    \item Quality assurance work involving analyzing data from vehicles. Technology's used such as Node.js, Android.
 \end{itemize} 
 }
 
-\cventry{June 2015 -- March 2017
-}{Software Engineering Trainee}{Drivec AB}{Helsingborg}{}{
+\cventry{May 2016 March 2016}{Algorithm \& Data Structure T.A}{Halmstad University}{Halmstad}{\textbf{part time}}{
+\begin{itemize}
+    \itemsep0.3em
+    \item Teaching assistant during computer labs in the Data Structure and Algorithms in Java course.
+\end{itemize}}
+
+\cventry{June 2015 March 2016}{Software Engineering Trainee}{Drivec AB}{Helsingborg}{\textbf{part time}}{
 \begin{itemize}
     \itemsep0.3em
     %\item Science Research - ECO-driving.
@@ -120,15 +132,20 @@
     %\item Field tests including research and analysis of data protocols\addtocounter{footnote}{-1}\footnotemark{} on tractor and harbour trucks where the results were implemented in the Android application.
 \end{itemize}}
 
-\cventry{March 2016 -- May 2016 
-}{Algorithm \& Data Structure T.A}{Halmstad University}{Halmstad}{}{
+\cventry{June 2011 September 2014}{Support \& Field Test Engineer}{Drivec AB}{Helsingborg}{\textbf{full time}, \textbf{part time} Sep 2014 - May 2017}{
 \begin{itemize}
     \itemsep0.3em
-    \item Teaching assistant during computer labs in the Data Structure and Algorithms in Java course.
+    %\item Project launches, installations, installation manuals, vehicle configuration.
+    \item Technical and customer support together with calibration of fleet management systems across 3000 vehicles to clients and customers in the Nordic region.
+    %\item Responsible for project roll outs of vehicles in the Nordic region.
+    \item Performed reverse engineering on vehicle data protocols\footnotemark[1].
+    %\item CAN-bus data analysis, reverse engineering.
 \end{itemize}}
 
+\newpage
+
 \section{Education}
-\cventry{2014--2017}{BA of Science in Engineering, Computer Science \& Engineering}{Halmstad University}{Sweden}{}{ \begin{itemize}
+\cventry{Sep 2014 June 2017}{BA of Science in Engineering, Computer Science \& Engineering}{Halmstad University}{Sweden}{}{ \begin{itemize}
     \itemsep0.3em
     \item \textit{\textbf{Machine Learning thesis project where we delivered a cloud module called ITMS - MLA\footnotemark[2]}}. Which was honored as the best thesis in the categories of Computer Science, Electronic, Mechatronic Engineering.
     %\item Delivered a prototype for an ingredient check up app for allergy at the hackathon Hack4Health in April 2016.
@@ -136,14 +153,14 @@
     %\item Representative during the open day in March 2017 for the IT section at Halmstad University.
 \end{itemize}}{ }
 
-\cventry{2016--2017}{Exchange Student BA Computer Science \& Engineering}{Korea University}{South Korea}{87.2/100 GPA}{}
+\cventry{July 2016 January 2017}{Exchange Student BA Computer Science \& Engineering}{Korea University}{South Korea}{87.2/100 GPA}{}
 %\begin{itemize}
    % \itemsep0.3em
 %    \item Attended courses in Computer networks, Information security,  Software Engineering, Internet Programming together with international and Korean students.
 %    \item Developer for the anonymous location based messages application \href{www.klotter.co}{\textbf{\textsc{www.klotter.co}}} together with international students, A+ received.
 %\end{itemize}}{}  % arguments 3 to 6 can be left empty
 
-\cventry{2012--2013}{Computer Science}{Malmö University}{Sweden}{}{}{}  % arguments 3 to 6 can be left empty
+\cventry{July 2012 Dec 2013}{Computer Science}{Malmö University}{Sweden}{}{}{}  % arguments 3 to 6 can be left empty
 
 \section{Language skills}
 \begin{itemize}
@@ -151,11 +168,11 @@
 \end{itemize}
 \section{Technical skills}
 \begin{itemize}
-    \item Main Programming/Script Languages (Intermediate 1-3 years): \textbf{\textit{Python}}
-        \item Other Programming/Script Langagues (Basic 1-3 years): \textbf{\textit{Java, Scala, Typescript}}
-    \item Main Machine Learning Framework Libraries (Basic 1 year): \textbf{\textit{scikit-learn}}
-    \item Main Cloud Technology (Basic 1-2 years): \textbf{\textit{Azure, AWS, Jenkins, CircleCI, Kubernetes, Docker}}
-    \item Main Big Data Tools \& DW (Basic 1-2 years): \textbf{\textit{Apache (-Airflow, -Kafka, -Spark), Redshift, PostgreSql}}
+    \item Main Version Control \& IDE's (Intermediate >3 years): \textbf{\textit{Git, PyCharm, IntelliJ, Visual Studio Code}}
+    \item Main Programming/Script Languages (Intermediate >3 years): \textbf{\textit{Python}}
+    \item Main Machine Learning Framework Libraries ~1 year): \textbf{\textit{scikit-Learn}}
+    \item Statistical Framework Libraries (<1 year): \textbf{\textit{stan, pymc3}}
+    \item Main Cloud Technology (>3 year): \textbf{\textit{AWS}}
     \item Certifications: \href{https://www.coursera.org/account/accomplishments/certificate/W5HM63ABYCDV}{\textbf{\textsc{\underline{[Coursera - Machine Learning]}}}}
     \item Publications ITMS - MLA\footnotemark[2]: \href{http://hh.diva-portal.org/smash/record.jsf?pid=diva2%3A1113511&dswid=4291#sthash.wwKv4JYI.dpbs}{\textbf{\textsc{\underline{[Thesis - Diva Portal]}}}}\href{http://iopscience.iop.org/article/10.1088/1757-899X/252/1/012018/pdf;jsessionid=EF9A9E415EC41D639019919DC566B21F.c4.iopscience.cld.iop.org}{\textbf{\underline{[IOP Science Publication]}}}
 \end{itemize}
@@ -171,3 +188,6 @@ Honors \& Awards: \href{https://www.hms-networks.com/work/in/sweden/hms-scholars
 \footnotetext[2]{ITMS MLA - Indirect Tire Monitoring System - Machine Learning Approach}
 
 \end{document}
+
+
+%% end of file `template.tex'.
