@@ -17,4 +17,4 @@ And ShareLatex is also good for running straight in the browser:
 
 ## Output as PDF
 
-![Screenshot](https://github.com/Thelin90/CV_sharelatex/blob/master/cv.png)  
+![Screenshot](https://github.com/Thelin90/CV_sharelatex/blob/master/THELIN_90_CV.png)  
