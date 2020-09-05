@@ -15,7 +15,7 @@
 %
 % This work consists of the files main.tex
 
-\documentclass[11pt,a4paper,sans,colorlinks,linkcolor=blue,urlcolor=blue]{moderncv}       
+\documentclass[10pt,a4paper,sans,colorlinks,linkcolor=blue,urlcolor=blue]{moderncv}       
 
  % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
@@ -33,6 +33,8 @@
 \usepackage{multicol}
 \usepackage[multiple]{footmisc}
 \usepackage[T1]{fontenc}
+
+
 
 
 \newlength{\mylen}
@@ -73,45 +75,74 @@
 %I possess professional qualifications in programming where i have delivered applications both in Android and hardware close software. I am always on point and loyal towards my duties.
 \section{Work Experience}
 
-\cventry{Current}{Data Engineer}{GameAnalytics}{London}{\textbf{full time}}{
+\cventry{Aug 2020 - Current}{Data Engineer}{IMG Arena}{London}{\textbf{full time}}{
 \begin{itemize}
-    \itemsep0.3em
-    \item Improving current data pipeline built in PySpark and Hive to insert data into BigQuery.
-    \item Building up the company data science platform. Including being responsible for best practices for data engineering and implementing data science features.
+    \itemsep0.2em
+    \item Built data processing pipelines both streaming and batch.
+    %\item Contributed to feature engineering, combining data sets from internal and external sources.
+    \item Managed and maintained standards for Data Analysis tools used across the organisation.
+    %\item Implemented the full life cycle of machine learning models.
+    \item Engaging with sports data providers about source data quality
+    \item Contributing to future design/architecture solutions that directly impact the business
+\end{itemize} 
+}
+
+\cventry{June 2019 - Dec 2019}{Data Engineer}{GameAnalytics}{London}{\textbf{full time}}{
+\begin{itemize}
+    \itemsep0.2em
+    \item Improved current data pipeline built in PySpark and Hive to insert data into BigQuery.
+    \item Built up the company data science platform. Including being responsible for best practices for data engineering and implementing data science features.
     \item Introduced Apache Airflow from scratch. Responsible for maintaining, teaching others (workshops) in how our schedule and workflow platform works in the data team, and how it can be used elsewhere.
     \item Worked closely together with data scientist to put statistical AB testing models into production. This included both data engineering and data science aspects.
 \end{itemize} 
 }
 
-\cventry{Dec 2019 - Jun 2019}{Data Engineer}{YoYo Wallet}{London}{\textbf{full time}}{
+\cventry{2019 Dec - 2019 June}{Data Engineer}{YoYo Wallet}{London}{\textbf{full time}}{
 \begin{itemize}
-    \itemsep0.3em
+    \itemsep0.2em
     \item Engineered large scale data modeling. Data processing in real time and batch with analytics. 
-    \item Used technologies such as Apache Spark, Terraform, Kafka, AWS (Redshift, S3, ECS, Kinesis), Postgres, Python, Pandas, Faust, Alembic, ELK stack, Airflow.
-    \item Was responsible for the data warehouse and for transitioning the BI team to utilise Redshift.
-    \item Managing an intern within the data team.
+    %\item Used technologies such as Apache Spark, Terraform, Kafka, AWS (Redshift, S3, ECS, Kinesis), Postgres, Python, Pandas, Faust, Alembic, ELK stack, Airflow.
+    \item Managed the transitioning of the data warehouse from Postgres to utilise Redshift.
+    %\item Managing an intern within the data team.
 \end{itemize} 
 }
 
-\cventry{June 2019 - August 2018}{Data Engineer}{Yieldify}{London}{\textbf{full time}}{
+\cventry{Aug 2018 - June 2019}{Data Engineer}{Yieldify}{London}{\textbf{full time}}{
 \begin{itemize}
-    \itemsep0.3em
-    \item Engineered large scale data modeling data modeling. Batch processing and analytics.
+    \itemsep0.2em
+    %\item Engineered large scale data modeling. Batch processing and analytics.
+    \item Maintaining maintenance of Redshift with Alembic.
+    \item Working closely with Data Analysts to deliver business needs both ad-hoc and modifying existing architecture. 
 \end{itemize}}
 
-\cventry{Jan 2018}{Developer Connected Vehicle Cloud}{Ericsson AB}{Gothenburg, Sweden}{\textbf{full time}}{}
+\cventry{August 2018 - Jan 2018}{Developer Connected Vehicle Cloud}{Ericsson AB}{Gothenburg, Sweden}{\textbf{full time}}{
+\begin{itemize}
+    \itemsep0.2em
+    \item Worked closely towards OEMs and OEMs delivery partners. Developing connectivity for the modern automotive ecosystem.
+    %\item Worked on maintaining Kafka infrastructure.
+    \item Engineered micro-service infrastructure in Ericcsons cloud environment based on Apcera (similar to k8s).
+    %\item Collaborating with several teams in China with code reviews.
+    %\item Utilising Terraform to enforce infrastructure as code in multi cloud environments (Azure, AWS).
+\end{itemize}}
 
-\cventry{Dec 2017}{Software Engineer}{Drivec AB}{Helsingborg, Sweden}{\textbf{full time}}{}
+\cventry{Dec 2017- June 2017}{Software Engineer}{Drivec AB}{Helsingborg, Sweden}{\textbf{full time}}{
+\begin{itemize}
+    \itemsep0.2em
+    \item Performed analytical work against fleet management systems. Integration of GPRS/GPS and CAN hardware. Preparing data for machine learning solutions, such as using Hellinger Distance.
+    %\item Quality assurance work involving analyzing data from vehicles.
+    %\item Used technologies such as Python, Node.js and Android (Java).
+\end{itemize}}
 
-\cventry{May 2016}{Algorithm \& Data Structure T.A}{Halmstad University}{Halmstad, Sweden}{\textbf{part time}}{}
-
-\cventry{2015 - 2016}{Software Engineering Trainee}{Drivec AB}{Helsingborg, Sweden}{\textbf{part time}}{}
-
-\cventry{2011 - 2014}{Support \& Field Test Engineer}{Drivec AB}{Helsingborg, Sweden}{\textbf{full time}}{}
+\cventry{2011 June - 2014 Sep}{Support \& Field Test Engineer}{Drivec AB}{Helsingborg, Sweden}{\textbf{full time}}{\begin{itemize}
+    \itemsep0.2em
+    %\item Worked in the company to make sure the project role out, managing installations went smoothly. Included traveling around the Nordics to teach how to install the fleet management systems.
+    \item Analyze CAN-bus data from vehicles to find bugs in the system.
+    \item Handled customer relationships with both small and big businesses.
+\end{itemize}}
 
 \section{Education}
 \cventry{2014 - 2017}{BA of Science in Engineering, Computer Science \& Engineering}{Halmstad University}{Sweden}{}{ \begin{itemize}
-    \itemsep0.3em
+    \itemsep0.2em
     \item \textit{\textbf{Machine Learning thesis project where we delivered a cloud module called ITMS - MLA\footnotemark[2]}}. Which was honored as the best thesis in the categories of Computer Science, Electronic, Mechatronic Engineering.
     %\item Delivered a prototype for an ingredient check up app for allergy at the hackathon Hack4Health in April 2016.
     %\item Attended education and preparations for 6 months to be able to be responsible for the team building process for new students at the introduction week at the IT section fall 2015.
@@ -133,8 +164,8 @@
     \item Main Workflow Management Platform:\textbf{\textit{(>2 years: Apache Airflow)}}
     \item Main Distributed Computing Framework:\textbf{\textit{(>2 years: PySpark), (<1 years: Hive)}}
     \item Main Data Analysis \& Manipulation Tool:\textbf{\textit{(>2 years: Pandas)}}
-    \item OS-Level Virtualization Tool: \textbf{\textit{(>3 years: Docker, Docker-Compose), (<1 years: K8S)}}
-    \item Main DB Technologies:\textbf{\textit{(Columnar: Redshift, BigQuery), (NoSQL: DynamoDB), (RDBMS: Postgres, MySQL)}}
+    \item OS-Level Virtualization Tool: \textbf{\textit{(>3 years: Docker, Docker-Compose), (>1 years: K8S)}}
+    \item Main DB Technologies:\textbf{\textit{(Columnar: Redshift, BigQuery, Athena), (NoSQL: DynamoDB), (RDBMS: Postgres, MySQL)}}
     \item Main Cloud Technology:\textbf{\textit{(>3 year: AWS), (<1 year: Google Cloud)}}
     \item Certifications:\href{https://www.coursera.org/account/accomplishments/certificate/W5HM63ABYCDV}{\textbf{\textsc{\underline{[Coursera - Machine Learning]}}}}
     \item Publications ITMS - MLA\footnotemark[2]: \href{http://hh.diva-portal.org/smash/record.jsf?pid=diva2%3A1113511&dswid=4291#sthash.wwKv4JYI.dpbs}{\textbf{\textsc{\underline{[Thesis - Diva Portal]}}}}\href{http://iopscience.iop.org/article/10.1088/1757-899X/252/1/012018/pdf;jsessionid=EF9A9E415EC41D639019919DC566B21F.c4.iopscience.cld.iop.org}{\textbf{\underline{[IOP Science Publication]}}}
